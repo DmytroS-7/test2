@@ -1,1 +1,12 @@
-console.log("test");
+const a = 10;
+const b = 5;
+console.log("a =", a);
+console.log("b =", b);
+let x = a + b;
+console.log("result sum", x);
+x = a - b;
+console.log("result diff", x);
+x = a * b;
+console.log("result mult", x);
+x = a / b;
+console.log("result div", x);
