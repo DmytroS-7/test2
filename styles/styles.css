@@ -13,3 +13,13 @@ p {
 img {
   width: 300px;
 }
+
+.video {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.video-media {
+  width: 100%;
+  height: auto;
+}
