@@ -1,18 +1,18 @@
 const user = {
-  firstname: "John",
-  lastname: "Connor",
-  age: 30,
-  date: "10.10.2000",
-  height: 186,
-  animals: false,
-  food: ["soup", "pizza", "fruit"],
-  getNameDate: function() {
-    console.log(this.firstname + " " + this.lastname + " " + this.date);
+  firstName: "John",
+  lastName: "Connor",
+  ageUser: 30,
+  dateOfBirth: "10.10.2000",
+  heightUser: 186,
+  animalsUser: false,
+  foodFavorite: ["soup", "pizza", "fruit"],
+  getFullNameAndDateOfBirth: function() {
+    console.log(this.firstName + " " + this.lastName + " " + this.dateOfBirth);
   }
 };
 
-user.getNameDate();
-console.log(user.food[0]);
+user.getFullNameAndDateOfBirth();
+console.log(user.foodFavorite[0]);
 console.log("-------------------------------");
 
 const a = 10;
