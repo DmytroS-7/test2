@@ -4,6 +4,8 @@ body {
 
 h1 {
   color: blue;
+  font-size: 4vw;
+  margin: 0;
 }
 
 p {
@@ -22,4 +24,25 @@ img {
 .video-media {
   width: 100%;
   height: auto;
+}
+
+#font-sherif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+#font-sans-sherif {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+#font-monospace {
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+
+.fa-battle-net {
+  font-size: 350%;
+  color: blue;
 }
